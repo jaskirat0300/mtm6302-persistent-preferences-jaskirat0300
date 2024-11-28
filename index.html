@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persistent Preferences</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Preferences Panel</h1>
+            <div class="field">
+                <label class="label">Select Theme:</label>
+                <div class="control">
+                    <div class="select">
+                        <select id="themeSelect">
+                            <option value="classic">Classic</option>
+                            <option value="modern">Modern</option>
+                            <option value="neon">Neon</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Select List Style:</label>
+                <div class="control">
+                    <div class="select">
+                        <select id="listStyleSelect">
+                            <option value="square">Square Bullets</option>
+                            <option value="circle">Circle Bullets</option>
+                            <option value="decimal">Decimal Numbers</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title">Dynamic List</h2>
+            <ul id="dynamicList">
+     
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+body.theme-classic {
+    background-color: #ffffff;
+    color: #363636;
+}
+
+body.theme-modern {
+    background-color: #f0f0f0;
+    color: #4a4a4a;
+}
+
+body.theme-neon {
+    background-color: #0f0f0f;
+    color: #39ff14;
+}
+
+
+ul.square li {
+    list-style-type: square;
+}
+
+ul.circle li {
+    list-style-type: circle;
+}
+
+ul.decimal {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+#dynamicList li {
+    margin-bottom: 10px;
+}
